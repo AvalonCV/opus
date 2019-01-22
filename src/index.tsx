@@ -1,6 +1,8 @@
+// ---------------------- REACT DOM ----------------------
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// ---------------------- OUR OWN APPLICATION :) ----------------------
+import { Opus } from './Opus';
+
+ReactDOM.render(<Opus />, document.getElementById('root'));
